@@ -105,17 +105,8 @@ class Gogogo(threading.Thread):
 
 
 # 评论页面的列表 支持多个
-# urls = ['/messageboard/', "/10007/06/07/hello%20word/", "/2020/07/15/github%E9%A1%B9%E7%9B%AE/", "/2020/07/15/github%E9%A1%B9%E7%9B%AE/", "/2020/07/13/deepin/", "/2020/07/13/deepin/",
-        "/2020/07/07/my-qqmusic-mv/", "/2020/07/07/my-qqmusic-mv/", "/2020/06/29/butterfly%E4%BC%98%E5%8C%96/", "/2020/06/29/butterfly%E4%BC%98%E5%8C%96/", "/2020/06/26/Linux%20basic/"]
+# urls = ['/messageboard/', "/10007/06/07/hello%20word/", "/2020/07/15/github%E9%A1%B9%E7%9B%AE/", "/2020/07/15/github%E9%A1%B9%E7%9B%AE/", "/2020/07/13/deepin/", "/2020/07/13/deepin/","/2020/07/07/my-qqmusic-mv/", "/2020/07/07/my-qqmusic-mv/", "/2020/06/29/butterfly%E4%BC%98%E5%8C%96/", "/2020/06/29/butterfly%E4%BC%98%E5%8C%96/", "/2020/06/26/Linux%20basic/"]
 # range参数为线程参数
-# for i in range(100):
-# 第一个参数表示appKey,第二个参数表示appId，第三个参数表示允许评论的白名单（通常为博客域名）
-# lete114NB = Gogogo('0grWyaGd2u7m1fxp9ibToKSw',
-#                    'IUDUqK7pq4814hzGe4RPIgmO-MdYXbMMI',
-#                    'https://kali.js.org/',
-#                    'https://us.avoscloud.com/1.1/classes/Comment',
-#                    urls)
-# lete114NB.start()
 urls = ["/p/314.html", "/p/312.html", "/p/310.html", "/p/309.html", "/p/308.html", "/p/305.html", "/p/304.html", "/p/303.html", "/p/297.html", "/p/291.html", "/p/290.html", "/p/289.html",
         "/p/279.html", "/p/276.html", "/p/169.html", "/p/144.html", "/p/142.html", "/p/113.html", "/p/109.html", "/p/90.html", "/p/67.html", "/p/37.html", "/p/20.html", "/p/13.html", "/p/1.html"]
 # range参数为线程参数
