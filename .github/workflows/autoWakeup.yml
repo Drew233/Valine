@@ -30,4 +30,4 @@ jobs:
           pip install requests
       - name: Waking #读取站点信息
         run: |
-          python app.py
+          python api.py
