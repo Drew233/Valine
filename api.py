@@ -41,8 +41,8 @@ class Gogogo(threading.Thread):
 
     def run(self):
         while True:
-            r = requests.post(self.leancloudUrl,
-                              headers=self.headers, data=json.dumps(self.data))
+            r = requests.get(self.leancloudUrl,
+                             headers=self.headers, data=json.dumps(self.data))
             print(r.text)
 # return r
 
@@ -51,5 +51,5 @@ class Gogogo(threading.Thread):
 for i in range(100):
     # 第一个参数表示appKey,第二个参数表示appId，第三个参数表示允许评论的白名单（通常为博客域名），第四个参数表示leancloud的地址，第五个参数表示需要刷取的页面列表
     leteNB = Gogogo('bUG2OW4oaVi3OKPNiPxGDy8o', 'v7RUELXqRXpxactiQlFOa7st-MdYXbMMI',
-                    'https://cndrew.cn/', 'https://v7ruelxq.api.lncldglobal.com/1.1/login')
+                    'https://cndrew.cn/', 'https://v7ruelxq.api.lncldglobal.com/1.1/classes/shuoshuo?where=%7B%7D&limit=5&order=-createdAt')
     leteNB.start()
